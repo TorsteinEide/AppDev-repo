@@ -1,0 +1,33 @@
+html{
+    font-size: 62.5%;
+}
+
+.card{
+    display: grid;
+    outline: red solid 2px;
+    width: 30rem;
+    height: 30vh;
+    align-items: center;
+    box-shadow: black 0px 8px 24px;
+}
+
+.card:hover .descdiv{
+    display: block;
+}
+
+.desc{
+    display: none;
+    position: absolute;
+    text-align: center;
+    font-size: 5rem;
+    align-self: flex-end;
+}
+
+.descdiv{
+    outline: black solid 3px;
+    height: 20rem;
+    align-items: flex-end;
+}
+
+
+
